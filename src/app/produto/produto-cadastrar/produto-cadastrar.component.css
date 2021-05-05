@@ -1,0 +1,40 @@
+.conteudo-produto {
+	width: 78vh;
+	height: 80vh;
+	border: solid 1px #FFF159;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	margin: 20px;
+	padding-left: 15px;
+	font-size: 12pt;
+}
+
+.valor-group {
+	display: flex;
+}
+
+.data-group {
+	display: flex;
+}
+
+.data-produto {
+	width: 20vh;
+}
+
+.valor-produto {
+	width: 26vh;
+}
+
+.quantidade-produto {
+	width: 10vh;
+}
+
+.nome-produto {
+	width: 70vh;
+}
+
+select {
+	margin-top: 42px;
+	margin-left: 10px;
+	height: 34px;
+	width: 120px;
+}

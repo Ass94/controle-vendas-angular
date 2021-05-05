@@ -1,0 +1,82 @@
+.btn-adicionar-produto {
+	float: left;
+}
+
+.conteudo-produto {
+	width: 78vh;
+	height: 80vh;
+	border: solid 1px #FFF159;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	margin: 20px;
+	padding-left: 15px;
+	font-size: 12pt;
+}
+
+.valor-group {
+	display: flex;
+}
+
+.data-group {
+	display: flex;
+}
+
+.data-produto {
+	width: 20vh;
+}
+
+.valor-produto {
+	width: 26vh;
+}
+
+.quantidade-produto {
+	width: 10vh;
+}
+
+.nome-produto {
+	width: 70vh;
+}
+
+select {
+	margin-top: 42px;
+	margin-left: 10px;
+	height: 34px;
+	width: 120px;
+}
+
+.conteudo-tabela {
+	width: 900px;
+	margin-left: 20px;
+	font-size: 10pt;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	background-color: #FFF159;
+	border-radius: 10px;
+}
+
+.tabela-produto {
+	background-color: #003153;
+}
+
+.tabela-produto th {
+	color: #FFFFFF;
+	border-bottom: solid 4px #FFF159;
+}
+
+.filtro-pesquisa {
+	display: flex;
+	align-items: center;
+	width: 900px;
+	padding-left: 500px;
+	margin-bottom: 10px;
+} 
+
+.filtro-pesquisa input {
+	margin-right: 5px;
+}
+

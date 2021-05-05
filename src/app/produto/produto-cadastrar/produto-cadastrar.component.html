@@ -1,0 +1,58 @@
+<div class="conteudo-produto">
+
+	<form>
+		
+		<div class="form-group mt-4">
+			<label for="nome" class="form-label">Nome</label>
+			<input type="text" class="form-control nome-produto" #nome="ngModel" [(ngModel)]="produto.nome" name="nome" id="nome" required>
+		</div>
+
+		
+
+		<div class="valor-group">
+
+			<div class="form-group mt-2 mr-2">
+				<label for="quantidade" class="form-label">Qtde</label>
+				<input type="text"  class="form-control quantidade-produto" #quantidade="ngModel" [(ngModel)]="produto.quantidade" name="quantidade" id="quantidade" required>
+			</div>
+			<div class="form-group mt-2 mr-2">
+				<label for="valorCompra" class="form-label">Valor Compra</label>
+				<input type="text" class="form-control valor-produto" #valorCompra="ngModel" [(ngModel)]="produto.valorCompra" name="valorCompra" id="valorCompra" required>
+			</div>
+
+			<div class="form-group mt-2">
+				<label for="valorVenda" class="form-label">Valor Venda</label>
+				<input type="text" class="form-control valor-produto" #valorVenda="ngModel" [(ngModel)]="produto.valorVenda" name="valorVenda" id="valorVenda" required>
+			</div>
+
+		</div>
+
+		<div class="data-group">
+			<div class="form-group mt-2 mr-2">
+				<label for="dataCompra" class="form-label">Data Compra</label>
+				<input type="text" class="form-control data-produto" #dataCompra="ngModel" [(ngModel)]="produto.dataCompra" name="dataCompra" id="dataCompra" required>
+			</div>
+
+			<div class="form-group mt-2">
+				<label for="dataVenda" class="dataVenda">Data Venda</label>
+				<input type="text" class="form-control data-produto" #dataVenda="ngModel" [(ngModel)]="produto.dataVenda" name="dataVenda" id="dataVenda" required>
+			</div>
+
+			
+			<div class="form-group selecione-status">
+				<select class="form-select" name="status" id="status" [(ngModel)] = "produto.status">
+					<option value="">Selecione</option>
+					<option value="Vendido">Vendido</option>
+					<option value="Disponivel">Dispon&iacute;vel</option>
+				</select>
+			</div>
+		</div>
+
+		
+
+		<button class="btn btn-primary mt-4 mb-2" 
+		[disabled] = "nome.invalid && quantidade.invalid && valorCompra.invalid && valorVenda.invalid" 
+		(click) = "save()">Salvar</button>
+	</form>
+
+</div>

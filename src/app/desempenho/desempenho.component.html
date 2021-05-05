@@ -1,0 +1,57 @@
+<div class="visao-geral">
+	<h2>Vis&atilde;o Geral</h2>
+</div>
+
+<div class="conteudo-table-receita">
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Receita Total</th>
+      <th scope="col" class="text-center">Qtde em Estoque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{total() | currency: 'BRL': true: '1.2-2'}}</td>
+      <td class="text-center">{{quantidade()}}</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="conteudo-table-receita-mensal mt-4">
+
+	<table class="table">
+  <thead>
+    <tr>
+	  <th scope="col">M&ecirc;s</th>
+      <th scope="col">Receita</th>
+      <th scope="col">Custos</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Janeiro</th>
+      <td>200</td>
+      <td>100</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">Fevereiro</th>
+      <td>300</td>
+      <td>100</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th scope="row">Mar&ccedil;o</th>
+      <td>300</td>
+      <td>100</td>
+      <td>200</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>

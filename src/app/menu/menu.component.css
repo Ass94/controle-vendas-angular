@@ -1,0 +1,36 @@
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 10;
+	height: 80px;
+	border-bottom: solid 4px #FFF159;
+	background-color: #003153;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu li {
+	margin: 0px 10px;
+	margin-left: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	font: verdana;
+	font-size: 10pt;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.menu a:hover {
+	background-color: #FFF159;
+	border-radius: 30px;
+	padding: 10px 25px;
+}

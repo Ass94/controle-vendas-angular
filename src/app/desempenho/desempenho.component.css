@@ -1,0 +1,23 @@
+.visao-geral {
+	padding: 20px;
+}
+
+.conteudo-table-receita {
+	width: 450px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.conteudo-table-receita table th {
+	height: 80px;
+}
+
+.conteudo-table-receita table th:hover {
+	background-color: #FFF159;
+}
+
+.conteudo-table-receita table td {
+	font-size: 14pt;
+	font-weight: 600;
+}
